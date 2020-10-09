@@ -69,10 +69,20 @@
 }
 #portfolio{
     clear: both;
-    display: table;
     display: flex;
-    padding: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left:18%;
+    margin-right: 16%;
 }
+.portfolio h2{
+    text-align: center;
+    padding-top:40px;
+    font-family: 'Gabriela', serif;
+  }
+  #black, #ontario, #pyramid, #jim, #nyc-day, #calc, #burn, #giraffe{
+      
+  } 
 /* .col-md-3{
     flex: 33.33%;
     padding: 5px;
