@@ -55,3 +55,15 @@
     padding-bottom: 30px;
     background-color: rgba(0, 0, 0, 0.4);
 }
+.what-we-do-section{
+    padding-top: 40px;
+    font-family: 'Gabriela', serif;
+    text-align: center;
+}
+.heading h2{
+    padding-bottom: 40px;
+}
+.what-we-do-section p{
+    font-family: 'Quattrocento', serif;
+
+}
