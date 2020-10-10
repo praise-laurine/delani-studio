@@ -251,7 +251,7 @@ button{
     bottom: -10px;
     padding-bottom: 30px;
     margin-bottom: 20px;
-  }
+}
 
 form{
     align-items: center;
@@ -261,15 +261,16 @@ input[type=text],input[type=email],#comment{
     color: white;
     font-size: 20px;
     font-family: 'Copse', serif;
-  }
+}
   .form-control::-webkit-input-placeholder { 
     color: white; 
-  }
+}
   footer{
     text-align: center;
     padding-top: 40px;
     font-family: 'Delius Swash Caps', cursive;
-  }
+}
   footer p{
     margin-top: 10px;
-  }
+}
+
