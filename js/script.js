@@ -66,3 +66,18 @@ $(document).ready(function(){
         $("#product").show('1500')
     });
 });
+
+$(document).ready(function(){
+    $("form#form-group").submit(function(event){
+        event.preventDefault();
+        let name = $("input#name").val();
+        let email = $("input#email").val();
+        let message= $("textarea#comment").val();
+        if($("input#name").val() && $("input#email").val()){
+          alert(name + ", your message has been received. Thank you for reaching out to us.");
+        }
+        else{
+          alert("Please enter your name and email !");
+        }
+    });
+});
