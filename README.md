@@ -21,7 +21,7 @@ The project is a website application for Delani studio where a user can find inf
 | :------------- | :----------: | -----------: |
 |  Enter your name  |   Laurine Praise |     |
 | Enter your Email Address  | praiselaurine10@gmail.com |   |
-| Enter your message or comment   |  I would love it if you designed for me my website     |     |
+| Enter your message or comment   |  I would love it if you designed for me my own website     |     |
 | Press Submit|     |Pop up alert "Laurine Praise , your message has been received. Thank you for reaching out to us.|
 # Contact Details
 If you have any request or questions please email me at praiselaurine10@gmail.com
