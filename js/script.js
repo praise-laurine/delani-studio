@@ -1,7 +1,8 @@
 $(document).ready(function(){
     $("#work4").mouseover(function(){
         $("#black").show();
-    }).mouseout(function(){
+    })
+    $("#work4").mouseout(function(){
         $("#black").hide();
     });    
     
@@ -89,25 +90,17 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    $("form#form-group").submit(function(event){
+    $("form").submit(function(event){
         event.preventDefault();
-        let name = $("input#name").val();
-        let email = $("input#email").val();
+        let personName = $("input#name").val();
+        let personEmail = $("input#email").val();
         let message= $("textarea#comment").val();
         if($("input#name").val() && $("input#email").val()){
-          alert(name + ", your message has been received. Thank you for reaching out to us.");
+          alert(personName + ", your message has been received. Thank you for reaching out to us.");
         }
         else{
           alert("Please enter your name and email !");
         }
     });
 });
-
-// $(document).ready(function(){
-//   $("#design-img").click(function(){
-//     $("").toggle();
-//     $("design-image").hide()
-//   });
-
-// });
 
